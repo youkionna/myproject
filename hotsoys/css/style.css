@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    font-family: "Courgette", cursive;
+    font-style: normal;
+    background-color: #FFFFFF;
+    }
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 112px;
+    margin: 0px 0px 0px 40px;
+    border: 1px solid #222222;
+}
+.button_red {
+    background: #BF230C;
+    padding: 15px 44px;
+    margin: 22px 30px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+.text_nav {
+    padding: 15px 44px;
+    margin: 26px 30px;
+    color: #222222;
+    
+}
+.nav_img {
+    width: 200px;
+    height: 70px;
+    margin: 22px 30px;;
+}
+
+
+.header {
+    margin: 0px 0px 0px 40px;
+    border: 1px solid #222222;
+    border-top: 0px;
+
+    width: 1440px;
+    height: 1000px;
+    display: grid;
+    gap: 0px;
+
+    grid-template-columns: repeat(2, 720px);
+    grid-template-areas:
+        'main_logo h1' 
+        'main_logo main_img' 
+        'stroka main_img' 
+        'main_imgpeper main_img'
+        
+}
+.header > * {
+    
+    border-radius: 0px;
+}
+.header_logo{
+    align-items: center;
+    grid-area: main_logo;
+    
+    border-right: 1px solid #222222;
+    border-radius: 0%;
+    padding-left: 20px;
+
+}
+.h1{
+    grid-area: h1;
+
+    text-transform: uppercase;
+    font-size: 58px;
+    text-align: center;
+    padding: 24px 80px 15px 81px;
+    margin: 0px;
+    width: 536px;
+    height: 194px;
+}
+
+.marquee-container {
+    grid-area: stroka;
+    border: 1px solid #222222;
+    border-left: none;
+    border-radius: 0%;
+    
+    overflow: hidden;
+    position: relative;
+}
+.marquee {
+    display: flex;
+    color: #222222;
+    white-space: nowrap;
+    position: absolute;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(-80px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(-100px);
+    }
+    150% {
+        transform: translateX(770px);
+    }
+}
+
+.stroka_img {
+    width: 68px;
+    height: 31px;
+    margin-top: 5px;
+
+}
+
+.header_img{
+    grid-area: main_img;
+
+    padding: 75px 0px 0px 65px;
+
+    border-top: 1px solid #222222;
+    border-radius: 0%;
+
+
+}
+.header_imgpeper{
+    grid-area: main_imgpeper;
+
+    
+    padding: 20px 0px 0px 98px ;
+    border-right: 1px solid #222222;
+    border-radius: 0%;
+}
+
+.slogan {
+    margin: 0px 0px 0px 40px;
+    border: 1px solid #222222;
+    border-top: 0px;
+    width: 1440px;
+
+    display: flex;
+}
+.h2 {
+    
+    text-transform: uppercase;
+    font-size: 55px;
+    text-align: center;
+}
+.rabbit {
+    padding: 40px 160px 46px 160px;
+    
+}
+
+article{
+    margin: 0px 0px 0px 40px;
+    border: 1px solid #222222;
+    border-top: 0px;
+    width: 1440px;
+    
+
+
+}
+.article_fire {
+    display: flex;
+    align-items: center;   
+}
+.sm_fire {
+    width: 57.1px;
+    height: 57.1px;
+    padding: 9.7px 16.1px 12.4px 16.1px;
+    margin: 21px;
+    margin-left: 40px;
+}
+.fire1 {
+    width: 56.4px;
+    height: 86.3px;
+    padding: 7.6px 10.6px 7.6px 10.3px;
+    margin: 25px 255px 0px 304px;
+}
+.fire2 {
+    width: 56.4px;
+    height: 86.3px;
+    padding: 7.6px 10.6px 7.6px 10.3px;
+    margin: 25px 255px 0px 125px;
+}
+
+.article_cart {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+}
+.cart {
+    display: flex;
+    flex-direction: column;
+    
+    background-image: url(../images/ramka.png);
+    width: 436.1px;
+    height: 658.4px;
+    margin: -50px 23px 21px 0px;
+}
+.cart_text {
+    text-align: center;
+    margin: 115px 0px 0px 0px;
+    font-size: 18px;
+}
+.cart_h3 {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    font-size: 32px;
+}
+.article_img {
+    width: 390px;
+    height: 411px;
+    margin: 0px 0px 0px 23px;
+    border-radius: 14.4px;
+    border: solid 1px #000;
+} 
+
+.stroca {
+    width: 1440px; /* Ширина контейнера */
+    height: 77px; /* Высота контейнера */
+    overflow: hidden; /* Скрыть часть текста, выходящую за пределы контейнера */
+    position: relative;
+    border-top: 1px solid #222222; 
+    
+}
+
+.stroca span {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    position: absolute;
+    white-space: nowrap; /* Запретить перенос текста на новую строку */
+    animation: marquee 40s linear infinite; /* Анимация */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%); /* Начинаем справа */
+    }
+    50% {
+        transform: translateX(-100%); /* Уходим влево */
+    }
+    100% {
+        transform: translateX(100%); /* Возвращаемся справа */
+    }
+}
+
+.article-img {
+    display: flex;
+    justify-content: center;
+
+    border-top: 1px solid #222222;
+    
+    width: 1440px;
+}
+.art-img {
+    margin: 21px 0px 20px 0px;
+}
+
+
+section {
+    margin: 0px 0px 0px 40px;
+    border: 1px solid #222222;
+    border-top: 0px;
+    border-bottom: 0px;
+    width: 1440px;
+    
+    height: 700px;
+    display: grid;
+    gap: 0px;
+
+    grid-template-columns: 660px 780px;
+    grid-template-areas:
+        'h2 tex'
+        'img tex'
+    
+}
+.section-h2 {
+    grid-area: h2;
+
+    text-align: center;
+
+    font-size: 58px;
+    text-align: center;
+    padding: 34px 80px 0px 61px;
+    margin: 0px;
+    margin-bottom: -50px;
+    width: 536px;
+    height: 120px;
+    
+}
+.section-img {
+    grid-area: img;
+    border-top: 1px solid #222222;
+}
+.s-img {
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 175px;
+}
+.story {
+    grid-area: tex;
+    
+    background-image: url(../images/ramrebb.png) ;
+    background-repeat: no-repeat;
+    border-left: 1px solid #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story-text {
+    width: 392px;
+}
+
+footer {
+    margin: 0px 0px 0px 40px;
+    border: 1px solid #222222;
+    border-top: 0px;
+    border-bottom: 0px;
+    width: 1440px;
+}
+.footer-logo {
+    border-top: 1px solid #222222;
+    border-bottom: 1px solid #BF230C;
+}   
+.f-img {
+    width: 1440px;
+    margin-bottom: -4px;
+}
+
+.footer-contact {
+    background: #BF230C;
+
+    display: flex; justify-content: center;
+}

@@ -1,0 +1,78 @@
+@import './mixsin';
+@import './sizeHD';
+@import './button';
+@import './modal';
+
+@include h;
+@include text;
+@include color;
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #545454;
+}
+
+header {
+    background-image: url(../img/snapedit_1743757737809.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+footer {
+    background-image: url(../img/snapedit_1743757737809.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.okno_nav {
+    left: 26px;
+    background-color: #2b221b;
+}
+.navbar375 {
+    @media (min-width: 426px){
+        display: none;
+        
+    }
+    
+}
+.navbar_scr {
+    @media (max-width: 426px){
+        display: none;
+    }
+}
+
+
+
+.cards {
+    width: 270px;
+    height: 435px;
+    @media (max-width: 768px){
+        width: 200px;
+    }
+}
+.p_card {
+    margin-left: 40%;
+}
+.btn_card {
+    margin-left: 13%;
+}
+
+
+.text_modal {
+    display: flex;
+    flex-direction: column;
+    width: 450px
+}
+
+li::marker {
+    color: #F1CDB3; 
+}
+footer ul {
+    list-style: none; /* Удаляем нежелательные маркеры в навигационном меню */
+}

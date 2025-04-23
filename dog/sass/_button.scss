@@ -1,0 +1,88 @@
+.btn_normal {
+    font-size: 17px;
+    color: black;
+    font-family: Georgia, "Times New Roman";
+
+    width: 207px;
+    height: 52px;
+
+    border-style: solid;
+    border: none;
+    border-radius: 30px;
+}
+.btn_normal:hover {
+    color: #545454;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f1cdb3;
+}
+
+.btn_round {
+    font-size: 17px;
+    color: black;
+    font-family: Georgia, "Times New Roman";
+
+    width: 52px;
+    height: 52px;
+
+    border-style: solid;
+    border: none;
+    border-radius: 30px;
+}
+.btn_round:hover {
+    color: #545454;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f1cdb3;
+}
+
+.links {
+    font-size: 17px;
+    color: black;
+    font-family: Georgia, "Times New Roman";
+    background-color: rgba(255, 255, 255, 0);  
+    outline: none;
+
+    border-style: solid;
+    border: none;
+    
+}
+
+.links:hover {
+    color: #fafafa;
+    border-bottom: 3px solid #f1cdb3;
+}
+.links:focus {
+    color: #fafafa;
+    border-bottom: 3px solid #f1cdb3;
+}
+.links2 {
+    color: black;
+    font-family: Georgia, "Times New Roman";
+    background-color: rgba(255, 255, 255, 0);  
+    outline: none;
+
+    border-style: solid;
+    border: none;
+
+    margin-bottom: 30px;
+}
+.links2:hover {
+    color: #fafafa;
+    border-bottom: 3px solid #f1cdb3;
+}
+.links2:focus {
+    color: #fafafa;
+    border-bottom: 3px solid #f1cdb3;
+}
+
+
+.bank_btn {
+    display: inline-block;
+    width: 380px;
+    text-align: center;
+    padding-top: 10px;
+
+}

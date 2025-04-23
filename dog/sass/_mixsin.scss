@@ -1,0 +1,64 @@
+@mixin h {
+    .h2 {
+        font-size: 44px;
+        color: #545454;
+
+    }
+    .h3 {
+        font-size: 35px;
+        color: #545454;
+    }
+    .h4 {
+        font-size: 20px;
+        color: #545454;
+    }
+    .h5 {
+        font-size: 15px;
+        color: #CDCDCD;
+    }
+    .h2w {
+        font-size: 44px;
+        color: #fff;
+    }
+    .h3w {
+        font-size: 35px;
+        color: #fff;
+    }
+    .h4w {
+        font-size: 20px;
+        color: #fff;
+    }
+}
+
+@mixin text {
+    .p1 {
+        font-size: 35px;
+        color: black;
+    }
+    .p2 {
+        font-size: 20px;
+        color: black;
+    }
+    .p3 {
+    font-size: 15px;
+    color: black;
+    }
+}
+
+@mixin color {
+    .pink {
+        background-color: #FDDCC4;
+    }
+    .pinkDark {
+        background-color: #F1CDB3;
+    }
+    .white {
+        background-color: #fff;
+    }
+    .grey {
+        background-color: #F6F6F6;
+    }
+    .wite {
+        background-color: #fafafa;
+    }
+}

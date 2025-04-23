@@ -1,0 +1,79 @@
+// тексты
+@mixin text-1 {
+    .p1 {
+        font-size: 18px;
+        color: #B4604D;
+    }
+}
+@mixin text-2 {
+    .p2 {
+        font-size: 18px;
+        color: #F6F4EC;
+    }
+}
+@mixin text-3 {
+    .p3 {
+        font-size: 18px;
+        color: #B45F4D;
+    }
+}
+@mixin text-4 {
+    .p4 {
+        font-size: 20px;
+        color: #F6F4EC;
+    }
+}
+@mixin text-5 {
+    .p5 {
+        font-size: 14px;
+        color: #C17C6C;
+    }
+    
+}
+@mixin hl-1 {
+    .h1 {
+        font-size: 33px;
+        color: #F6F4EC;
+    }
+}
+@mixin hl-2 {
+    .h2 {
+        font-size: 30px;
+        color: #B45F4D;
+    }
+}
+
+// цвета
+@mixin k-1 {
+    .korich {
+        background-color: #B36050;
+    }
+}
+@mixin k-2 {
+    .korich2 {
+        background-color: #B45F4D;
+    }
+}
+@mixin white {
+    .white {
+        background-color: #F6F4EC;
+    }
+}
+@mixin pinc {
+    .pinc {
+        background-color: #F1D3B9;
+    }
+}
+@mixin grey {
+    .grey {
+        background-color: #A9AE8D;
+    }
+}
+@mixin pincdark {
+    .pincdark {
+        background: #DF9B7A;
+    }
+}
+
+
+

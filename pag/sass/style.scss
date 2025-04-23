@@ -1,0 +1,55 @@
+@import './mixsin';
+@import './size';
+
+@include text-1;
+@include text-2;
+@include text-3;
+@include text-4;
+@include text-5;
+@include hl-1;
+@include hl-2;
+@include k-1;
+@include k-2;
+@include pinc;
+@include grey;
+@include white;
+@include pincdark;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttom {
+    border: none;
+    width: 128px;
+    height: 48px;
+}
+.upper {
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none; 
+}
+li {
+    padding-top: 12px;
+}
+
+.forma{
+    display: flex;
+    width: 500px;
+    height: 40px;
+    margin-top: 14px;
+    margin-bottom: 22px;
+}
+
+.forma_btn {
+    width: 200px;
+    border-style: solid;
+    border-color: #B4604D;
+    border-left: none;
+}
+.pole {
+    width: 400px;
+    border-style: solid;
+    border-color: #B4604D;
+    border-right: none;
+}
